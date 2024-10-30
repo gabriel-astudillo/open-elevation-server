@@ -1,0 +1,7 @@
+services:
+  open-elevation:
+    image: gastudil/oes:01.00 
+    hostname: oes
+    command: ["python3","/home/oes/openElevationServer.py","--port", "10666"]
+    ports:
+      - 10666:10666
