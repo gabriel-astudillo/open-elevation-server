@@ -9,7 +9,7 @@ This service came out of the need to have a hosted, easy to use and easy to setu
 
 
 
-There is also a docker version of **Open-Elevation Server**. This does not require downloading any geofiles. It is available on (docker-hub)[https://hub.docker.com/r/gastudil/oes].
+There is also a docker version of **Open-Elevation Server**. This does not require downloading any geofiles. It is available on [docker-hub](https://hub.docker.com/r/gastudil/oes).
 
 
 
