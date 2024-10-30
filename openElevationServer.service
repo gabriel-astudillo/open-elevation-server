@@ -1,0 +1,17 @@
+[Unit]
+Description=Open-Elevation microservice for DEMPS
+After=network.target 
+
+[Service]
+ExecStart=/home/demps/open.elevation.server/openElevationServer.py
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+#Restart=on-failure
+RestartPreventExitStatus=255
+Type=simple
+RuntimeDirectory=snitch2DEMPS
+RuntimeDirectoryMode=0755
+
+[Install]
+WantedBy=multi-user.target
+Alias=openElevationServer.service
